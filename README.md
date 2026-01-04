@@ -5,8 +5,6 @@
 
 This repository contains **three assignments** related to compiler design concepts, including syntax analysis, semantic analysis, and practical applications in C++ programs. The assignments are designed to provide a deep understanding of parsing techniques, type checking, and scope management in compilers.
 
----
-
 ## Table of Contents
 
 1. [Assignment 1: Difference Between Top-Down and Bottom-Up Parsing](#assignment-1-difference-between-top-down-and-bottom-up-parsing)
@@ -14,7 +12,6 @@ This repository contains **three assignments** related to compiler design concep
 3. [Assignment 3: Semantic Analysis – Scope & Symbol Table](#assignment-3-semantic-analysis-scope--symbol-table)
 4. [Conclusion](#conclusion)
 
----
 
 ## Assignment 1: Difference Between Top-Down and Bottom-Up Parsing
 
@@ -58,7 +55,6 @@ Bottom-up parsing starts from the **input string** and reduces it to the **start
 
 A C++ program uses a **stack** to check for balanced `{}` in a string. This demonstrates syntax analysis in real applications.
 
----
 
 ## Assignment 2: Type Mismatch Error
 
@@ -108,7 +104,7 @@ Semantic analysis detects this mismatch and prevents runtime errors.
 | Example           | Missing semicolon | Assigning float to int |
 | Program Structure | Incorrect         | Correct                |
 
----
+
 
 ## Assignment 3: Semantic Analysis – Scope & Symbol Table
 
@@ -165,7 +161,6 @@ class Bank can access Account::balance via friend declaration
 * Compiler reliability: early detection of access violations.
 * OOP principles: supports encapsulation and maintainable code.
 
----
 
 ## Conclusion
 
